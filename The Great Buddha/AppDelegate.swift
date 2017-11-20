@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  The Great Buddha
 //
-//  Created by Victoria on 2017/11/6.
+//  Created by HUNG-JU CHEN on 2017/11/6.
 //
 
 import UIKit

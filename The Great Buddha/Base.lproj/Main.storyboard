@@ -1,24 +1,996 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EB6-Iz-mWP">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--The Great Buddha +-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="The Great Buddha +" customClass="ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MV0-Vc-o8J">
+                                <rect key="frame" x="0.0" y="538" width="375" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Taiwan | 104 minutes | 2017 | 14A | Colour, BW | Taiwanese, Mandarin  The latest by Huang Hsin-Yao follows a security guard and his best friend who become entangled in a web of dark secrets after stumbling upon videos that document the promiscuous meetings of a wealthy factory owner.
+The most anticipated Taiwanese film of the year is an extension of Huang Hsin-Yao's 2014 award-winning short, The Great Buddha. (The + in the feature's title was satirically added by the director as a reference to corporate naming trends.)
+
+Pickle (Cres Chuang), a night security guard at a bronze statue factory, and Belly Button (Bamboo Chen), a recyclables collector, are best friends. While trying to kill time on the long nights spent in the security room, Belly Button suggests that they view the dash-camera footage of Pickle's rich boss, Kevin (Leon Dai). Watching the promiscuous meetings Kevin has with various women, they witness something they never should have known about.
+
+Peppered with dry humour, this darkly comic misadventure is told in a style all Huang's own. The Great Buddha+ is shot in black and white, the only exception being the dash-cam recordings. These images are like wormholes, taking Pickle, Belly Button, and the viewer from one universe into another, from the colourless existence of the poor and forgotten to the illuminated world of the powerful.
+
+Highly stylized and full of humour, The Great Buddha+ is one of a kind. It might not be your usual cup of tea, but that's only because you haven't tried it yet.</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kv_ps" translatesAutoresizingMaskIntoConstraints="NO" id="Jwd-wC-vFL">
+                                <rect key="frame" x="0.0" y="117" width="375" height="484"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" title="The Great Buddha +" id="sZm-Ip-CNU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="766" y="355"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fpc-RR-MPF">
+            <objects>
+                <viewController id="LQp-xJ-S40" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a3J-Ki-tUt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="16" translatesAutoresizingMaskIntoConstraints="NO" id="DJg-Pu-hZL">
+                                <rect key="frame" x="0.0" y="83" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Xlc-Db-mP7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcN-BN-V02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="-7.389162561576355"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zpM-cX-CnZ">
+            <objects>
+                <viewController id="Tl8-PX-KeI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QrD-jC-xMy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="Bis-2f-0YA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="x6R-ce-Yms"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nya-Di-NAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2605.5999999999999" y="-7.389162561576355"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pX3-IM-deF">
+            <objects>
+                <viewController id="DQi-4j-OCM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A1x-Ku-sF1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="Dbv-ie-VDn">
+                                <rect key="frame" x="0.0" y="42" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="dWV-Ln-Lvq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4d6-ET-dqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="657.63546798029563"/>
+        </scene>
+        <!--Director & Cast-->
+        <scene sceneID="TW6-HO-EEE">
+            <objects>
+                <viewController id="0G8-d6-r5W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vJn-XY-DRK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJM-ok-Fgb">
+                                <rect key="frame" x="0.0" y="140" width="375" height="589"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text"> Director Huang Hsin-Yao Huang Hsin-Yao was born in Tainan, Taiwan. His directorial credits include the documentaries Bluffing (05), Taivalu (10), and Cloud Nation (15), as well as the narrative short The Great Buddha (14). The Great Buddha+ (17) is his debut feature film, and is an expansion of his earlier short.      Cast   Pickle...........................Cres Chuang  
+Belly Button...............Bamboo Chen   Kevin..................................Leon Dai
+Potato..................................Na Dow
+Sakya....................Chang Shao-huai  
+Yeh Feng-ju...................Ting Kuo-lin  
+Gucci......................................JC Lei  
+Kao...............................Chen Yi-wen
+Police chief.................Vincent Liang  
+Police officer..................Yu An-shun  
+Singer...................................Jutoupi
+Deputy speaker........Lee Yung-feng  
+Buddhist sect senior....Lin Mei-hsiu  
+Kao's secretary........Cheng Yu-tong
+Belly Button's uncle.........Tuo Hsien </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Qab-DX-3le"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Director &amp; Cast" id="4UQ-MB-hJy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Crj-n5-60t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="2664"/>
+        </scene>
+        <!--Awards-->
+        <scene sceneID="cUS-Y9-MnT">
+            <objects>
+                <viewController id="aWc-qR-r31" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9nX-ap-B6B">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="TEJ-2Z-L2c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="743"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bfd-4D-UEM">
+                                <rect key="frame" x="0.0" y="140" width="375" height="589"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">◼︎ 54th Golden Horse Awards: (Pending) Best Feature Film-- The Great Buddha +
+Best Supporting Actor-- Leon Dai
+Best New Director-- Huang Hsin-yao
+Best Adapted Screenplay-- Huang Hsin-yao
+Best Cinematography-- Nagao Nakashima
+Best Art Direction-- Chao Shih-hao
+Best Original Film Score-- Lin Sheng-xiang
+Best Original Film Song "To Have, or Not To Have"-- Composer：Lin Sheng-xiang
+Lyrics: Ong Chiau-hoa
+Performer: Lin Sheng-xiang
+Best Film Editing-- Lai Hsiu-hsiung
+Best Sound Effects-- Tu Duu-chih and Wu Shu-yao  ◼︎ 19th Taipei Film Awards: Grand Prize-- The Great Buddha +
+Best Narrative Feature-- The Great Buddha +
+Outstanding Artistic Contribution in Editing-- Lai Hsiu-hsiung
+Outstanding Artistic Contribution in Music-- Lin Sheng-xiang
+Outstanding Artistic Contribution in Art Direction-- Chao Shih-hao  ◼︎ 2017 Toronto International Film Festival: NETPAC Award-- The Great Buddha +</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="oAb-m8-YXz"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Awards" id="4to-42-xo2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0j-Tn-deA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="3366"/>
+        </scene>
+        <!--The Great Buddha +-->
+        <scene sceneID="Cjy-sN-4dk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ulY-HH-OhG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="The Great Buddha +" image="about_icon" selectedImage="about_icon" id="w80-fx-SZc">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="gSn-zl-mc3">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" hidden="YES" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8cF-Zb-YJc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="IqJ-3A-L3E"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PWc-KQ-Qcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="355"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kET-uE-WJE">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="EB6-Iz-mWP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dAF-rL-1Wq">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ulY-HH-OhG" kind="relationship" relationship="viewControllers" id="Ilw-fT-ppf"/>
+                        <segue destination="jZ7-0m-Jlg" kind="relationship" relationship="viewControllers" id="Vcz-Gd-b41"/>
+                        <segue destination="TcD-ic-OEd" kind="relationship" relationship="viewControllers" id="7g9-zV-14z"/>
+                        <segue destination="cgH-Kh-ann" kind="relationship" relationship="viewControllers" id="KDy-9X-yCd"/>
+                        <segue destination="xZC-0k-29j" kind="relationship" relationship="viewControllers" id="C0S-IF-dYh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ByW-8v-VWK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2538" y="1564"/>
+        </scene>
+        <!--Videos-->
+        <scene sceneID="qY5-bz-QqG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TcD-ic-OEd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Videos" image="video_icon" selectedImage="video_icon" id="zkZ-lN-bDp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Ko2-Rx-Bwc">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bwq-9U-bUo" kind="relationship" relationship="rootViewController" id="Bry-1c-TZc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJ7-O1-IAu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="1565"/>
+        </scene>
+        <!--Videos-->
+        <scene sceneID="LQl-a5-CYY">
+            <objects>
+                <tableViewController id="Bwq-9U-bUo" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3qP-CK-ybf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="INTERNATIONAL TRAILER" id="wOS-83-qHy" userLabel="INTERNATIONAL TRAILER" colorLabel="IBBuiltInLabel-Red">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="251" id="H3K-wr-1if" userLabel="wv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H3K-wr-1if" id="qNi-ar-17i">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tiff" translatesAutoresizingMaskIntoConstraints="NO" id="Y1s-Z2-HJt" userLabel="wv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3wm-a8-uBD">
+                                                    <rect key="frame" x="16" y="215" width="359" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <string key="text">The Great Buddha + Trailer | TIFF 2017
+</string>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="I02-w6-5oy" kind="show" id="eb7-0s-JBi"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="TRAILER" id="dNm-Pw-89C">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="8gv-x7-I0t" userLabel="yt2">
+                                        <rect key="frame" x="0.0" y="307" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8gv-x7-I0t" id="4nl-IO-1kL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="正式預告" translatesAutoresizingMaskIntoConstraints="NO" id="PaE-xC-YW0" userLabel="yt2">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Great Buddha + Trailer | Taiwan" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dZ3-ag-EZi">
+                                                    <rect key="frame" x="16" y="213" width="359" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="bv5-ee-8rd" kind="show" id="RFd-Je-HKw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="TEASER TRAILER" id="hGZ-rf-ehU" userLabel="TEASER TRAILER">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="4ee-Yb-yhg" userLabel="yt3">
+                                        <rect key="frame" x="0.0" y="586" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4ee-Yb-yhg" id="0gR-3J-10M">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="前導1" translatesAutoresizingMaskIntoConstraints="NO" id="skv-vX-pk7" userLabel="yt3">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VKk-jm-cyN">
+                                                    <rect key="frame" x="16" y="215" width="359" height="14"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <string key="text">#1 Do not have money
+</string>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="8yL-Ob-lfG" kind="show" id="zBq-M2-tWm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="pmt-LH-MOH" userLabel="yt4">
+                                        <rect key="frame" x="0.0" y="837" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pmt-LH-MOH" id="orF-vG-hm2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="前導2" translatesAutoresizingMaskIntoConstraints="NO" id="c33-Vi-Zsa" userLabel="yt4">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JyT-Ly-1na">
+                                                    <rect key="frame" x="16" y="212" width="359" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <string key="text">#2 Not born with a silver spoon 
+</string>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="YJK-Gz-qRJ" kind="show" id="fBW-1Y-gAp"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="3no-p8-roX" userLabel="yt5">
+                                        <rect key="frame" x="0.0" y="1088" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3no-p8-roX" id="ai4-jO-erR">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="前導3" translatesAutoresizingMaskIntoConstraints="NO" id="B5e-tI-ow0" userLabel="yt5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mtn-cA-7gU">
+                                                    <rect key="frame" x="16" y="212" width="359" height="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <string key="text">#3 Indifferent
+</string>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="A4D-hZ-Sdf" kind="show" id="dwB-oa-tga"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="SOUNDTRACK" id="ctz-fv-NUe">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="2ek-iP-T6C" userLabel="yt6">
+                                        <rect key="frame" x="0.0" y="1367" width="375" height="251"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2ek-iP-T6C" id="xCg-Ve-NP9">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="250.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="片尾" translatesAutoresizingMaskIntoConstraints="NO" id="gSB-pG-8i5" userLabel="yt6">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="The Great Buddha + OST" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fVy-4v-nER">
+                                                    <rect key="frame" x="16" y="212" width="359" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="tintColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="pas-f4-Ebu" kind="show" id="Hma-jV-M1V"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Bwq-9U-bUo" id="zHq-rG-OV7"/>
+                            <outlet property="delegate" destination="Bwq-9U-bUo" id="abg-8m-jfY"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Videos" id="dav-bK-chg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="giS-QX-Wlt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="1564"/>
+        </scene>
+        <!--You Tube View Controller-->
+        <scene sceneID="cOK-i5-6Yl">
+            <objects>
+                <viewController id="I02-w6-5oy" customClass="YouTubeViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="stg-Fg-6bb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SAf-Gw-JPa" userLabel="wv">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lax-MN-e3Q">
+                                <rect key="frame" x="16" y="446" width="343" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">TIFF Trailers
+Published on Aug 22, 2017
+Category
+Film &amp; Animation</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE GREAT BUDDHA+ Trailer | TIFF 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69v-NS-7q2">
+                                <rect key="frame" x="16" y="399" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="txa-Kg-w2Y"/>
+                    </view>
+                    <connections>
+                        <outlet property="wv" destination="SAf-Gw-JPa" id="nJI-Vu-h0v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QeF-Ve-n7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="1397"/>
+        </scene>
+        <!--Director & Cast-->
+        <scene sceneID="3b6-wN-c0E">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgH-Kh-ann" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Director &amp; Cast" image="cast_icon" selectedImage="cast_icon" id="Izv-13-qVW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="4kX-Lk-9aV">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0G8-d6-r5W" kind="relationship" relationship="rootViewController" id="BSO-gW-TnO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F65-7B-ywU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="2664"/>
+        </scene>
+        <!--Awards-->
+        <scene sceneID="z2W-Uc-BUj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xZC-0k-29j" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Awards" image="awards_icon" selectedImage="awards_icon" id="DRX-nN-HVk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Kt3-bR-pDX">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aWc-qR-r31" kind="relationship" relationship="rootViewController" id="mu2-Aa-LbN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIz-Ov-1IG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55" y="3366"/>
+        </scene>
+        <!--Stills-->
+        <scene sceneID="2ZJ-4f-oWe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jZ7-0m-Jlg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Stills" image="photo_icon" selectedImage="photo_icon" id="pCu-yl-okL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Nli-Us-0GK">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dIH-v1-4s2" kind="relationship" relationship="rootViewController" id="ZoC-TF-xcy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xDM-3s-UEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-54" y="-687"/>
+        </scene>
+        <!--Stills-->
+        <scene sceneID="scW-fR-AQx">
+            <objects>
+                <viewController id="dIH-v1-4s2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uKx-p1-f3I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADg-A7-8VR">
+                                <rect key="frame" x="-1" y="140" width="226" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="1"/>
+                                <connections>
+                                    <segue destination="iNb-es-IjH" kind="show" id="oaG-L4-2sA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzZ-HB-PW6">
+                                <rect key="frame" x="227" y="121" width="150" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="6"/>
+                                <connections>
+                                    <segue destination="XL2-8x-PkQ" kind="show" id="bF7-wQ-zif"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ikk-cd-Vne">
+                                <rect key="frame" x="-1" y="231" width="377" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="2"/>
+                                <connections>
+                                    <segue destination="GhQ-k2-0FG" kind="show" id="ye3-bC-kmm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MpF-yF-p4k">
+                                <rect key="frame" x="0.0" y="475" width="112" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="16"/>
+                                <connections>
+                                    <segue destination="LQp-xJ-S40" kind="show" id="k7h-ag-YuM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2b-3v-50c">
+                                <rect key="frame" x="113" y="475" width="263" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="3"/>
+                                <connections>
+                                    <segue destination="Tl8-PX-KeI" kind="show" id="8UP-T0-bSL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AcM-hP-ilF">
+                                <rect key="frame" x="-1" y="582" width="378" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="4"/>
+                                <connections>
+                                    <segue destination="DQi-4j-OCM" kind="show" id="Cml-gK-Efq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="BJU-vK-cqC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stills" id="g7b-tQ-esR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIq-aR-1Qj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765.60000000000002" y="-687.192118226601"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="srq-h0-UPb">
+            <objects>
+                <viewController id="GhQ-k2-0FG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0gU-dT-2KI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="uHv-dg-Rsd">
+                                <rect key="frame" x="0.0" y="42" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Tfu-Zi-SmB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R9A-Mv-hjS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="-734.48275862068965"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Zf-IY-via">
+            <objects>
+                <viewController id="iNb-es-IjH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bW1-I9-1w2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="x7A-sQ-Oh0">
+                                <rect key="frame" x="0.0" y="42" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="UgW-GE-TQl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wxE-2W-WBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="-1441.6256157635469"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cZf-4j-LlG">
+            <objects>
+                <viewController id="XL2-8x-PkQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t5b-ZR-6cP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="bqA-Jy-Z7b">
+                                <rect key="frame" x="0.0" y="42" width="375" height="729"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="olb-5J-jxr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Jf-Xp-KzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2605.5999999999999" y="-1441.6256157635469"/>
+        </scene>
+        <!--Youtube2 View Controller-->
+        <scene sceneID="wHJ-et-wYc">
+            <objects>
+                <viewController id="bv5-ee-8rd" customClass="Youtube2ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eOL-tw-wRE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Nl-Sf-Hrd" userLabel="yt2">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhW-Jr-9l7">
+                                <rect key="frame" x="16" y="445" width="343" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">甲上娛樂 APPLAUSE
+Published on Sep 7, 2017 Category
+Film &amp; Animation</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE GREAT BUDDHA+  Trailer 10/13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCB-eq-oYa">
+                                <rect key="frame" x="16" y="399" width="327" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gj6-aD-yhk"/>
+                    </view>
+                    <connections>
+                        <outlet property="yt2" destination="8Nl-Sf-Hrd" id="Pb8-T4-B7t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZR-jL-uRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2606" y="1397"/>
+        </scene>
+        <!--Youtube3 View Controller-->
+        <scene sceneID="yjL-Vf-zHg">
+            <objects>
+                <viewController id="8yL-Ob-lfG" customClass="Youtube3ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Af8-Pq-gFh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2E-lP-cxU" userLabel="yt3">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teaser Trailer #1 Do not have money" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuz-dy-lwG">
+                                <rect key="frame" x="8" y="391" width="351" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVA-s4-e59">
+                                <rect key="frame" x="8" y="432" width="351" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">甲上娛樂 APPLAUSE
+Published on Jul 26, 2017
+Category
+Film &amp; Animation</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Jpg-8b-cMH"/>
+                    </view>
+                    <connections>
+                        <outlet property="yt3" destination="B2E-lP-cxU" id="coo-6J-4ns"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Dz-vu-frS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="2076"/>
+        </scene>
+        <!--Youtube4 View Controller-->
+        <scene sceneID="U0c-A4-NIz">
+            <objects>
+                <viewController id="YJK-Gz-qRJ" customClass="Youtube4ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IaW-aY-4hK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HGL-9t-obM" userLabel="yt4">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teaser Trailer #2 Not born with a silver spoon " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBw-Oz-CLo">
+                                <rect key="frame" x="9" y="379" width="343" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDI-K3-cKz">
+                                <rect key="frame" x="9" y="455" width="343" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">甲上娛樂 APPLAUSE
+Published on Aug 10, 2017
+Category
+Film &amp; Animation</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="U4h-0u-FCt"/>
+                    </view>
+                    <connections>
+                        <outlet property="yt4" destination="HGL-9t-obM" id="qfj-45-2To"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fm7-zP-sEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2606" y="2077"/>
+        </scene>
+        <!--Youtube5 View Controller-->
+        <scene sceneID="jGL-FE-NgE">
+            <objects>
+                <viewController id="A4D-hZ-Sdf" customClass="Youtube5ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KkI-W9-33x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ge-o3-mUF" userLabel="yt5">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6cV-8h-Gyx">
+                                <rect key="frame" x="8" y="434" width="343" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">甲上娛樂 APPLAUSE
+Published on Aug 22, 2017
+Category
+Film &amp; Animation</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teaser Trailer #3 Indifferent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bb-UM-Hfb">
+                                <rect key="frame" x="8" y="394" width="343" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ugA-pG-3fa"/>
+                    </view>
+                    <connections>
+                        <outlet property="yt5" destination="6ge-o3-mUF" id="mZP-PV-iHP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rlg-aP-2Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3358" y="2076"/>
+        </scene>
+        <!--Youtube6 View Controller-->
+        <scene sceneID="GKC-pK-6AG">
+            <objects>
+                <viewController id="pas-f4-Ebu" customClass="Youtube6ViewController" customModule="The_Great_Buddha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AkC-0G-b9l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H2a-3s-2nm" userLabel="yt6">
+                                <rect key="frame" x="0.0" y="140" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soundtrack- 林生祥- 有無" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaf-d3-rk7">
+                                <rect key="frame" x="7" y="399" width="352" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQ1-fa-Geh">
+                                <rect key="frame" x="7" y="440" width="352" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">SX Band
+Published on Oct 13, 2017
+Category
+Music</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="interactive" editable="NO" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh7-Ay-5nq">
+                                <rect key="frame" x="3" y="555" width="360" height="202"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lyricist/ 王昭華 Composer/ 林生祥 Lyric Translation/ KUO  人生無定著 世事歹按算 
+反身的 CHANCE 有抑無 
+lîn-sing bô tiānn-tio̍h, sè-sū pháinn àn-sǹg, 
+huán-sin --ê CHANCE ū ia̍h bô? 
+
+落塗八字命 隨人好額散 
+夠力的 BACK 有抑無 
+lo̍h-thôo pueh-lī miā, suî lâng hó-gia̍h sàn, 
+kàu li̍k --ê BACK ū ia̍h bô? 
+
+有地 有天 有星 有日月 
+有破厝 有田路 有草仔花 
+有目 有耳 有鼻 有舌 
+有這身情義 有知己
+ū tè, ū thinn, ū sing, ū li̍t gue̍h, 
+ū phuà tshù, u tshân lōo ,ū tsháu-á hue, 
+ū ba̍k, ū hī, ū phīnn, ū tsi̍h, 
+ū tsit sin tsîng-gī, ū ti-kí, 
+
+如夢幻 如泡影 如露亦如電 
+如夢幻 如泡影 如露亦如電 
+lû bōng-huàn, lû phàu íng, lû lōo i̍k lû tiān, 
+lû bōng-huàn, lû phàu íng, lû lōo i̍k lû tiān, 
+
+無地 無天 無星 無日月 
+無厝 無田路 無草仔花 
+無看兮 無聽兮 無鼻兮 無啖兮 
+無空思夢想 無代誌
+ bô tè, bō thinn, bō sing, bô li̍t gue̍h, 
+bô phuà tshù, bō tsháu-á hue, 
+bō khuànn --ê, bō thiann --ê, bô phīnn --ê, bo tām --ê, 
+bô khang su bāng sióng, bô tāi-tsì, 
+
+歕風一喙菸 
+LIGHTER 火隨化 
+菸頭菸屎 有抑無 
+菸味粉味 有抑無 
+pûn-hong tsi̍t tshuì hun, 
+LIGHTER hué suî huà, 
+hun thâu hun sái, ū ia̍h bô? 
+hun bī hún bī, ū ia̍h bô?</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="MFW-fg-Ds1"/>
+                    </view>
+                    <connections>
+                        <outlet property="yt6" destination="H2a-3s-2nm" id="jhL-ip-maA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWT-8U-U37" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="2787"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1" width="2560" height="1050"/>
+        <image name="16" width="800" height="800"/>
+        <image name="2" width="1600" height="1067"/>
+        <image name="3" width="2560" height="1050"/>
+        <image name="4" width="2560" height="1050"/>
+        <image name="6" width="1200" height="900"/>
+        <image name="8" width="7952" height="5304"/>
+        <image name="about_icon" width="32" height="32"/>
+        <image name="awards_icon" width="32" height="32"/>
+        <image name="cast_icon" width="32" height="32"/>
+        <image name="kv_ps" width="1602" height="2282"/>
+        <image name="photo_icon" width="32" height="32"/>
+        <image name="tiff" width="488" height="266"/>
+        <image name="video_icon" width="32" height="32"/>
+        <image name="前導1" width="488" height="266"/>
+        <image name="前導2" width="488" height="266"/>
+        <image name="前導3" width="488" height="266"/>
+        <image name="正式預告" width="488" height="266"/>
+        <image name="片尾" width="488" height="266"/>
+    </resources>
 </document>
