@@ -4,7 +4,6 @@
 //
 //  Created by HUNG-JU CHEN on 2017/11/6.
 //  Copyright © 2017 HUNG-JU CHEN. All rights reserved.
-//  Movie Copyright © 甲上娛樂 Applause Entertainment Limited.
 
 import UIKit
 
