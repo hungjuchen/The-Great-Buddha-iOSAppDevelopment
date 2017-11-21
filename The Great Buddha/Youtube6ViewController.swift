@@ -1,6 +1,6 @@
 //
 //  Youtube6ViewController.swift
-//  
+//  The Great Buddha
 //
 //  Created by HUNG-JU CHEN on 2017/11/6.
 //  Copyright © 2017 HUNG-JU CHEN. All rights reserved.
